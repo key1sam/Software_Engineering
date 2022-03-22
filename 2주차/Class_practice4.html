@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function over() {
+                space.innerText = "Mouse Over";
+            }
+            function out() {
+                space.innerText = "Mouse Out"; 
+            }
+        </script>
+    </head>
+
+    <body>
+        <p>Bring your mouse inside the division to see the result:</p>
+        <div id="space" onmouseover="over()" onmouseout="out()">
+            <h2> This is inside the division </h2>
+        </div>
+    </body>
+</html>
